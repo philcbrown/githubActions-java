@@ -27,6 +27,9 @@ jobs:
       - name: Compile HelloWorld.java
         run: javac HelloWorld.java
 
+      - name: Run helloworld
+        run: java HelloWorld
+
       # this might not be done within a production workflow
       # but this runs our compiled code to show the compile worked
       - name: Run HelloWorld
